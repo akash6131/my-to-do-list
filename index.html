@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My to do list</title>
+    <style>
+        body{
+            background-color: burlywood;
+            margin:50px 500px 50px 500px;
+        }
+        #section{
+            border-style: groove;
+            border-radius:20px;
+            width:300px;
+            padding:20px;
+            background-color: rgba(251, 173, 72, 0.416);
+            transition:0.3s;
+        }
+        button{
+            border-radius:10px;
+            transition:0.3s;
+        }
+        #section:hover{
+            box-shadow:10px 10px 60px;
+        }
+        #btn1:hover{
+            background-color:gold;
+            box-shadow:10px 10px 60px;
+        }
+        #btn2:hover{
+            background-color:gold;
+            box-shadow:10px 10px 60px;
+        }
+        #btn3:hover{
+            background-color:gold;
+            box-shadow:10px 10px 60px;
+        }
+        #btn4:hover{
+            background-color:gold;
+            box-shadow:10px 10px 60px;
+        }
+        #button:hover{
+            box-shadow:10px 10px 60px;
+        }
+        #btn1{
+            background-color: rgb(67, 208, 255);
+            color: white;
+        }
+        #btn2{
+            background-color: rgb(115, 1, 1);
+            color: white;
+        }
+        #btn3{
+            background-color: rgb(0, 214, 4);
+            color: white;
+        }
+        #btn4{
+            background-color: rgb(67, 208, 255);
+            color: white;
+        }
+        input:hover{
+            box-shadow:10px 10px 60px;
+        }
+        #list:hover{
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+<body>
+    <div id="section">
+        <h1>My to-do list</h1>
+        <h4 id="name"><i>Double-click an item to make it complete.</i></h4>
+        <input type="text">
+        <button id="btn4">add</button>
+        <ol>
+            <li>my</li>
+            <li id="list">to-do</li>
+            <li>list</li>
+        </ol>
+        <button id="btn1">Clear Completed</button>
+        <button id="btn2">Empty list</button>
+        <button id="btn3">Save List</button>
+    </div>
+</body>
+</html>
